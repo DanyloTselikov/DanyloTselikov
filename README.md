@@ -6,7 +6,7 @@
 - 🔭 Currently building: Telegram bot + Co-op project with a partner
 - 🌱 Learning: FastAPI, Docker, PostgreSQL, Clean Architecture
 - 🎯 Goal: Land my first Python Developer role
-- 📍 Plymouth
+- 📍 London
 
 ## 🛠 Tech Stack
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
