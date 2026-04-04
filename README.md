@@ -18,7 +18,7 @@
 ## 📌 Projects
 | Project | Description | Stack |
 |---------|-------------|-------|
-| 🤖 [Bot Project]([link](https://github.com/DanyloTselikov/GojoBot_tg)) | Telegram bot | Python, aiogram
+| 🤖 [Bot Project](https://github.com/DanyloTselikov/GojoBot_tg) | Telegram bot | Python, aiogram
 | 🤝 Co-op Project | Coming soon | TBD |
 
 ## 📫 Contact me
