@@ -44,9 +44,9 @@ I'm also developing a Telegram bot; I'll share it here when it's ready.
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DanyloTselikov/DanyloTselikov/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DanyloTselikov/DanyloTselikov/output/snake.svg" />
-  <img src="https://raw.githubusercontent.com/DanyloTselikov/DanyloTselikov/output/snake.svg" alt="Animated snake travelling across Dany's GitHub contribution calendar" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/DanyloTselikov/DanyloTselikov/raw/refs/heads/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/DanyloTselikov/DanyloTselikov/raw/refs/heads/output/snake.svg" />
+  <img src="https://github.com/DanyloTselikov/DanyloTselikov/raw/refs/heads/output/snake.svg" alt="Animated snake travelling across Dany's GitHub contribution calendar" width="100%" />
 </picture>
 
 ## Let's connect
