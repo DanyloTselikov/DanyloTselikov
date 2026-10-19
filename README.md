@@ -37,6 +37,18 @@ I study **Computer Science and AI at the University of Leicester** and build pro
 
 I'm also developing a Telegram bot; I'll share it here when it's ready.
 
+## Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=DanyloTselikov&amp;show_icons=true&amp;hide_rank=true&amp;hide_border=true&amp;bg_color=0b1220&amp;title_color=41e1c1&amp;text_color=c7d7e9&amp;icon_color=5ca9ff" alt="Dany's GitHub activity statistics" height="195" />
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DanyloTselikov/DanyloTselikov/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DanyloTselikov/DanyloTselikov/output/snake.svg" />
+  <img src="https://raw.githubusercontent.com/DanyloTselikov/DanyloTselikov/output/snake.svg" alt="Animated snake travelling across Dany's GitHub contribution calendar" width="100%" />
+</picture>
+
 ## Let's connect
 
 Interested in Python, backend work, or a project idea? [Send me an email](mailto:celikovdana951@gmail.com) or explore my [repositories](https://github.com/DanyloTselikov?tab=repositories).
