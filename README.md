@@ -1,26 +1,42 @@
-# Hey, I'm Dany 👋
+<div align="center">
+  <img src="assets/banner.svg" alt="Dany Tselikov — Python developer, building bots and backend projects" width="100%" />
+</div>
 
-🐍 Python developer in progress, building real projects
+<p align="center"><strong>Python developer in progress · Computer Science + AI student</strong><br />Building useful things, learning in public, and getting a little better with every project.</p>
 
-## 🚀 About Me
-- 🔭 Currently building: Telegram bot + Co-op project with a partner
-- 🌱 Learning: FastAPI, Docker, PostgreSQL, Clean Architecture
-- 🎯 Goal: Land my first Python Developer role
-- 📍 London
+<p align="center">
+  <a href="#selected-work"><img src="https://img.shields.io/badge/Explore_my_projects-111827?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore my projects" /></a>
+  <a href="mailto:celikovdana951@gmail.com"><img src="https://img.shields.io/badge/Email_me-14B8A6?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email me" /></a>
+</p>
 
-## 🛠 Tech Stack
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Telegram](https://img.shields.io/badge/Telegram_Bot-2CA5E0?style=flat&logo=telegram&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+## Hey, I'm Dany 👋
 
-## 📌 Projects
-| Project | Description | Stack |
-|---------|-------------|-------|
-| 🤖 [Bot Project](https://github.com/DanyloTselikov/GojoBot_tg) | Telegram bot | Python, aiogram
-| 🤝 Co-op Project | Coming soon | TBD |
+I study **Computer Science and AI at the University of Leicester** and build projects with Python. My main interests are Telegram bots, backend development, and understanding how software works under the hood. I'm working towards my first Python developer role.
 
-## 📫 Contact me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin)](link)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail)](mailto:celikovdana951@gmail.com)
+- **Building:** Telegram bots and small backend projects
+- **Learning:** FastAPI, Docker, PostgreSQL, and clean architecture
+- **Practising:** Data structures and algorithms with [NeetCode](https://github.com/DanyloTselikov/neetcode-submissions)
+- **Based in:** UK
+
+## Tools I use
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram_Bots-26A5E4?style=flat-square&logo=telegram&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-learning-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-learning-2496ED?style=flat-square&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-learning-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+## Selected work
+
+| Project | What you'll find |
+| :--- | :--- |
+| 🧩 **[NeetCode submissions](https://github.com/DanyloTselikov/neetcode-submissions)** | My synced Python solutions as I practise data structures and algorithms. |
+| 🎮 **[Game Lua](https://github.com/DanyloTselikov/gameLua)** | A 2D LÖVE game with enemies, shooting, pickups, and a combo system. |
+| 📚 **[Library app](https://github.com/DanyloTselikov/libapp)** | A Python command-line exercise for managing a small book library. |
+
+I'm also developing a Telegram bot; I'll share it here when it's ready.
+
+## Let's connect
+
+Interested in Python, backend work, or a project idea? [Send me an email](mailto:celikovdana951@gmail.com) or explore my [repositories](https://github.com/DanyloTselikov?tab=repositories).
