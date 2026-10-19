@@ -1,36 +1,79 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">Dany Tselikov — Python developer</title>
-  <desc id="desc">Dark navy profile banner with teal and blue accents and geometric code-inspired artwork.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-label="Dany Tselikov, Python developer: building bots, learning backend, solving problems, creating and using AI systems">
+  <title>Dany Tselikov — Python developer</title>
   <defs>
-    <linearGradient id="background" x2="1" y2="1">
-      <stop stop-color="#0b1220"/>
-      <stop offset="1" stop-color="#152941"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#41e1c1"/>
-      <stop offset="1" stop-color="#5ca9ff"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 H 0 V 32" fill="none" stroke="#a5cced" stroke-opacity=".08"/>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.1" fill="#1E2733"></circle>
     </pattern>
-    <clipPath id="rounded">
-      <rect width="1200" height="320" rx="20"/>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"></stop>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="1"></stop>
+    </linearGradient>
+    <mask id="dotmask">
+      <rect width="900" height="360" fill="url(#fade)"></rect>
+    </mask>
+    <clipPath id="clip">
+      <rect width="900" height="360" rx="20"></rect>
     </clipPath>
   </defs>
-  <g clip-path="url(#rounded)">
-    <rect width="1200" height="320" fill="url(#background)"/>
-    <rect width="1200" height="320" fill="url(#grid)"/>
-    <circle cx="1040" cy="156" r="210" fill="#2f75a8" opacity=".10"/>
-    <circle cx="1010" cy="160" r="146" fill="none" stroke="#59b4d8" stroke-opacity=".17"/>
-    <circle cx="1010" cy="160" r="101" fill="none" stroke="#59b4d8" stroke-opacity=".14"/>
-    <path d="M 820 0 V 320" stroke="#6bbfd0" stroke-opacity=".13"/>
-    <path d="M 904 87 L 859 132 L 904 177 M 1133 87 L 1178 132 L 1133 177" fill="none" stroke="url(#accent)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M 1051 70 L 976 196" fill="none" stroke="url(#accent)" stroke-width="11" stroke-linecap="round"/>
-    <rect x="66" y="46" width="11" height="11" rx="3" fill="#42ddbd"/>
-    <text x="92" y="57" fill="#8ee5db" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2">HELLO, WORLD · I'M</text>
-    <text x="63" y="148" fill="#f6fbff" font-family="DejaVu Sans, Arial, sans-serif" font-size="57" font-weight="700">Dany Tselikov</text>
-    <text x="66" y="196" fill="#c7d7e9" font-family="DejaVu Sans, Arial, sans-serif" font-size="22">Python developer in progress</text>
-    <rect x="66" y="225" width="388" height="1" fill="#68c8d2" opacity=".60"/>
-    <text x="66" y="261" fill="#9ebbd3" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" letter-spacing="1">BUILDING BOTS  /  LEARNING BACKEND  /  SOLVING PROBLEMS</text>
+
+  <g clip-path="url(#clip)">
+    <rect width="900" height="360" fill="#0A0D12"></rect>
+    <rect width="900" height="360" fill="url(#dots)" mask="url(#dotmask)"></rect>
+  </g>
+  <rect x="0.5" y="0.5" width="899" height="359" rx="19.5" fill="none" stroke="#252D3A"></rect>
+
+  <!-- window bar -->
+  <circle cx="34" cy="27" r="5" fill="#C6F432"></circle>
+  <circle cx="54" cy="27" r="5" fill="#2A3240"></circle>
+  <circle cx="74" cy="27" r="5" fill="#2A3240"></circle>
+  <text x="98" y="32" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="13" fill="#7E8A9C">dany_tselikov / profile.py</text>
+  <line x1="0" y1="54" x2="900" y2="54" stroke="#1A212C"></line>
+
+  <!-- identity -->
+  <rect x="48" y="98" width="32" height="4" rx="2" fill="#C6F432"></rect>
+  <text x="48" y="130" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="13" font-weight="700" letter-spacing="3.2" fill="#C6F432">PYTHON DEVELOPER</text>
+  <text x="46" y="198" font-family="'SF Pro Display','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="-2" fill="#F2F5F9">Dany</text>
+  <text x="46" y="268" font-family="'SF Pro Display','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="-2" fill="#F2F5F9">Tselikov</text>
+
+  <!-- prompt -->
+  <text x="48" y="320" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="14" fill="#7E8A9C" textLength="135" lengthAdjust="spacing"><tspan fill="#C6F432">$</tspan> python dany.py</text>
+  <rect x="190" y="307" width="9" height="17" fill="#C6F432">
+    <animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1.1s" calcMode="discrete" repeatCount="indefinite"></animate>
+  </rect>
+
+  <!-- focus list -->
+  <line x1="440" y1="84" x2="440" y2="308" stroke="#1A212C"></line>
+  <line x1="480" y1="84" x2="852" y2="84" stroke="#1E2631"></line>
+
+  <g>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.143;0.429" dur="1.4s" fill="freeze"></animate>
+    <text x="480" y="117" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#C6F432">01</text>
+    <text x="520" y="117" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="14" font-weight="600" letter-spacing="1.4" fill="#E8ECF2">BUILDING BOTS</text>
+    <path d="M842 107 L849 112 L842 117" fill="none" stroke="#6B778A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+    <line x1="480" y1="140" x2="852" y2="140" stroke="#1E2631"></line>
+  </g>
+
+  <g>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.286;0.571" dur="1.4s" fill="freeze"></animate>
+    <text x="480" y="173" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#C6F432">02</text>
+    <text x="520" y="173" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="14" font-weight="600" letter-spacing="1.4" fill="#E8ECF2">LEARNING BACKEND</text>
+    <path d="M842 163 L849 168 L842 173" fill="none" stroke="#6B778A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+    <line x1="480" y1="196" x2="852" y2="196" stroke="#1E2631"></line>
+  </g>
+
+  <g>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.429;0.714" dur="1.4s" fill="freeze"></animate>
+    <text x="480" y="229" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#C6F432">03</text>
+    <text x="520" y="229" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="14" font-weight="600" letter-spacing="1.4" fill="#E8ECF2">SOLVING PROBLEMS</text>
+    <path d="M842 219 L849 224 L842 229" fill="none" stroke="#6B778A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+    <line x1="480" y1="252" x2="852" y2="252" stroke="#1E2631"></line>
+  </g>
+
+  <g>
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.571;0.857" dur="1.4s" fill="freeze"></animate>
+    <text x="480" y="285" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#C6F432">04</text>
+    <text x="520" y="285" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="14" font-weight="600" letter-spacing="1.4" fill="#E8ECF2">CREATING &amp; USING AI SYSTEMS</text>
+    <path d="M842 275 L849 280 L842 285" fill="none" stroke="#6B778A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+    <line x1="480" y1="308" x2="852" y2="308" stroke="#1E2631"></line>
   </g>
 </svg>
